@@ -1,0 +1,92 @@
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+ul {
+    list-style: none;
+}
+.container {
+    content-visibility: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+        padding: 0px;
+    }
+}
+/* End Global Rules */
+/* Start Download Section */
+.download .container .images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.download .container .box {
+    width: 550px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    position: relative;
+}
+@media (max-width: 991px) {
+    .container .box {
+        width: 340px !important;
+    }
+}
+.download .container .box img {
+    max-width: 100%;
+}
+.download .container .box a {
+    width: fit-content;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: white;
+    background-color: rgb(230 74 25 / 85%);
+    border-bottom: 4px solid #222;
+    padding: 10px;
+    border-radius: 15px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+@media (max-width: 991px) {
+    .download .container .box a {
+        font-size: 12px;
+    }
+}
+.download .container .box a:hover {
+    color: black;
+    border-bottom-color: #e64a19;
+    font-weight: 600;
+    background-color: rgb(216, 216, 216);
+}
+/* End Download Section */
