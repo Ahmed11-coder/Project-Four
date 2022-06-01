@@ -173,6 +173,7 @@ header nav i {
     transform: translateY(-50%);
 }
 .landing .text h2 {
+    width: -moz-fit-content;
     width: fit-content;
     text-transform: uppercase;
     font-size: 72px;
@@ -532,7 +533,7 @@ header nav i {
 /* Start Facts & Numbers */
 .facts {
     padding: var(--padding-section) 0;
-    background-image: url(../images/Stats\ 4.jpg);
+    background-image: url(../images/stats\ 4.avif);
     background-size: cover;
     color: white;
     text-align: center;
@@ -540,7 +541,7 @@ header nav i {
 }
 @media (max-width: 767px) {
     .facts {
-        background-image: url(../images/Stats\ 9.jpg);
+        background-image: url(../images/Stats\ 9.avif);
         background-position-x: -140px;
     }
 }
@@ -835,6 +836,7 @@ header nav i {
     cursor: pointer;
 }
 .footer .box span {
+    width: -moz-fit-content;
     width: fit-content;
     transition: 0.3s;
     border-bottom: 1px solid transparent;
